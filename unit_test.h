@@ -1,6 +1,6 @@
 #pragma once
 
-#include <iostream>
+#include <stdio.h>
 static unsigned int ctr = 0;
 #define  ASSERT(X) \
 printf("Running Test #%i... ", ++ctr); \
